@@ -1,0 +1,37 @@
+footer {
+  background-color: $colour-background;
+  margin-top: 2rem;
+  padding: 0.5em;
+
+  @media (max-width: $tablet) {
+    padding: 25px 15px;
+  }
+
+  .container {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 300;
+    color: $colour-accent-second;
+    margin: 0;
+    padding: 0;
+  }
+
+  & i {
+    color: $colour-accent-second;
+    font-size: 30px;
+    margin-right: 10px;
+  }
+}
+
+.icons {
+  @media (max-width: $tablet) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

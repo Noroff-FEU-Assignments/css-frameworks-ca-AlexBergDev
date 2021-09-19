@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>The YAY Company - Contact</title>
+        <link href="css/style.css" rel="stylesheet" />
+        <script src="https://kit.fontawesome.com/1abcb9173a.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">The YAY Company</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="news.html">News</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-primary my-2 my-sm-0" type="submit">Go</button>
+                    </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="container">
+                <h1>Submit your details</h1>
+                <div class="row">
+                    <div class="col-md order-md-2">
+                        <ul class="list-group">
+                            <li class="list-group-item"><i class="fas fa-envelope"></i>hello@yay.com</li>
+                            <li class="list-group-item"><i class="fas fa-phone"></i>123 456 7890</li>
+                            <li class="list-group-item"><i class="fas fa-map-marker-alt"></i>123 Some Street<br>Somewhere<br>Some City<br>1000</li>
+                        </ul>
+                    </div>
+                    <div class="col-md order-md-1">
+                        <form class="contact">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="email" class="form-control" id="name" />
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="password" class="form-control" id="email" />
+                            </div>
+                            <div class="form-group">
+                                <label for="basic-url">Website</label>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon3">https://</span>
+                                    </div>
+                                    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea class="form-control" id="message" rows="6"></textarea>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Allow us to sell your personal details to whomever we want</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="container">
+                <div class="icons"><i class="fa fa-vimeo"></i> <i class="fa fa-youtube-play"></i></div>
+                <p>hello@yay.com</p>
+                <p>Copyright 2020</p>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

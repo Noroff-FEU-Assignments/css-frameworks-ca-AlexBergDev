@@ -53,19 +53,49 @@
     font-weight: 300;
   }
 
-  .share-box {
-    text-transform: uppercase;
-    font-weight: 400;
-
-    @media (max-width: 768px) {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-  }
-
   & i {
     font-size: 22px;
     margin-left: 12px;
+  }
+}
+
+.share-box {
+  text-transform: uppercase;
+  font-weight: 400;
+
+  @media (max-width: $tablet) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+
+    & i {
+      padding: 5px;
+      font-size: 28px;
+      margin-left: 10px;
+    }
+  }
+}
+
+.accordion {
+  -webkit-box-shadow: 0px 5px 25px -4px $colour-accent-third;
+  box-shadow: 0px 5px 25px -4px $colour-accent-third;
+  border-radius: 10px;
+
+  .card {
+    border-radius: 10px;
+    border: none;
+  }
+  .card-header {
+    background-color: $colour-background;
+  }
+  .btn {
+    font-size: 19px;
+  }
+  .show {
+    border-top: 1px solid $primary;
+  }
+  .card-body {
+    background-color: $colour-background-second;
   }
 }

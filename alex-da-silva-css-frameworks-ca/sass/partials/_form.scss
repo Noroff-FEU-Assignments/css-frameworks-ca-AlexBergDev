@@ -1,0 +1,90 @@
+.contact {
+  background-color: $colour-background-second;
+  -webkit-box-shadow: 0px 5px 25px -4px $colour-accent-third;
+  box-shadow: 0px 5px 25px -4px $colour-accent-third;
+  padding: 25px;
+
+  label {
+    font-size: 20px;
+    color: $colour-accent-second;
+  }
+
+  .btn {
+    background-color: $colour-accent-second;
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 22px;
+  }
+}
+
+.form-group {
+  input {
+    border: none;
+    height: 52px;
+  }
+
+  textarea {
+    border: none;
+    height: 200px;
+  }
+}
+
+.input-group-prepend {
+  .input-group-text {
+    border: none;
+    color: white;
+    font-size: 17px;
+    background-color: $colour-accent-third;
+  }
+}
+
+.form-check {
+  margin-bottom: 18px;
+
+  input {
+    appearance: none;
+  }
+
+  .form-check-input {
+    -webkit-appearance: none;
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+    background-color: $colour-accent;
+    border-radius: 3px;
+    height: 30px;
+    width: 30px;
+    margin-left: -21px;
+    margin-right: 10px;
+
+    &:hover {
+      background-color: $colour-accent-third;
+    }
+
+    &:checked {
+      background-color: $colour-accent-second;
+    }
+  }
+
+  .form-check-label {
+    font-size: 15px;
+  }
+}
+
+.list-group-item {
+  border: none;
+  background-color: transparent;
+}
+
+.list-group li {
+  font-size: 16px;
+  color: $colour-accent-second;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: flex-start;
+
+  i {
+    font-size: 30px;
+    margin-right: 25px;
+  }
+}

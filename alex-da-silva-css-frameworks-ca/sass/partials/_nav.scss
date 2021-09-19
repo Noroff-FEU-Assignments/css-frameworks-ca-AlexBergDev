@@ -1,0 +1,85 @@
+.navbar-brand {
+  font-family: $font-headings;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bolder;
+
+  @media (min-width: $tablet +1) {
+    margin-right: 30px;
+  }
+}
+
+.nav-link {
+  font-size: 16px;
+  padding: 2px;
+  color: $colour-heading !important;
+}
+
+.active {
+  background-color: $colour-background;
+  border-radius: 3px;
+
+  @media (max-width: $tablet) {
+    -webkit-box-shadow: 0px 5px 25px -4px $colour-background-second;
+    box-shadow: 0px 5px 25px -4px $colour-background-second;
+  }
+}
+
+.navbar-collapse {
+  z-index: 1;
+}
+
+.navbar-toggler {
+  border: 0;
+}
+
+.navbar-toggler-icon {
+  height: 25px;
+}
+
+.form-inline {
+  .form-control {
+    border: 0;
+    border-radius: 5px 0px 0px 5px;
+
+    @media (max-width: $tablet) {
+      max-width: 89%;
+      padding: 25px;
+    }
+  }
+
+  .btn {
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -10px;
+
+    @media (max-width: $tablet) {
+      padding: 12px;
+    }
+  }
+}
+
+.navbar {
+  @media (max-width: $tablet) {
+    -webkit-box-shadow: 0px 5px 25px -4px $colour-background-second;
+    box-shadow: 0px 5px 25px -4px $colour-background-second;
+  }
+
+  @media (min-width: $tablet +1) {
+    padding: 14px;
+  }
+
+  .nav-link {
+    margin: 0px 13px;
+  }
+
+  .nav-item {
+    @media (max-width: $tablet) {
+      padding: 10px;
+      padding-left: 20px;
+      width: 110%;
+      margin-left: -5%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+}

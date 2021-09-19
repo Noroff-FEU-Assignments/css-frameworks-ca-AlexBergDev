@@ -60,8 +60,8 @@
 
 .navbar {
   @media (max-width: $tablet) {
-    -webkit-box-shadow: 0px 5px 25px -4px $colour-background-second;
-    box-shadow: 0px 5px 25px -4px $colour-background-second;
+    -webkit-box-shadow: 0px 5px 25px -4px $colour-heading;
+    box-shadow: 0px 5px 25px -4px $colour-heading;
   }
 
   @media (min-width: $tablet +1) {
